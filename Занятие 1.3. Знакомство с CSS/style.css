@@ -1,0 +1,134 @@
+@import "https://netology-code.github.io/html-homeworks/css/resourses/normalize.css";
+
+body {
+	padding:20px;
+    margin:20px;
+    color: #404040;
+    }
+    
+h1 {
+
+}
+h2 {
+	font-style: italic;
+}
+
+blockquote {
+
+}
+ol {
+	border:1px solid #ccc;
+	padding:20px 50px;
+}
+li {
+	font-size: 17px;
+}
+
+a {
+	font-size: 14px;
+
+}
+
+p{
+    margin: 0 15px;
+    text-indent: 25px; /* Отступ первой строки в пикселах */
+    font-size: 25px;
+}
+
+p.cascade-paragraph{
+    background: #99FF99;
+}
+
+p:first-letter{
+    color: #f00
+}
+
+ul{
+    color: #000000;
+}
+
+li ul li ul li
+{
+    color: #ff0000;
+}
+
+.alter-paragraph:first-letter /**/
+    {
+font-size: 46px;
+float: left;
+font-weight: 400;
+line-height: 1em;
+margin-bottom: -0.4em;
+margin-right: 0.10em;
+margin-left: 0.50em;
+position: relative;
+    } 
+
+
+
+/* ШПОРА
+
+///Импортируем сторонний файл стилей в файл со стилями
+@import "URL";
+или
+@import url(anylink);
+
+
+///крепим тег <тег>
+p {
+    свойсто:значение;
+}
+
+///крепим класс <тег class="anystyle">
+.anyclass {
+    свойсто:значение;
+}
+
+///крепим идентификатор <тег id="anyid">
+#anyid {
+    свойсто:значение;
+}
+
+///крепим тег, как потомок класса.
+///Расшифровываем: стилизовать тег anytag, который является потомком класса anyclass
+.anyclass anytag{
+    свойсто:значение;
+}
+
+///крепим тег, как потомок тега.
+///Расшифровываем: стилизовать тег anytag2, который является потомком тега anytag1
+anytag1 anytag2{
+    свойсто:значение;
+}
+
+///крепим класс, относящийся к тегу.
+///Расшифровываем: стилизовать таг anytag с классом anyclass
+anytag.anyclass{
+    свойсто:значение;
+}
+
+///Веса. Приоритетность///
+
+            ID(100)         CLASS(10)           TAG(1)
+            0               1                   0               =10
+            0               2                   0               =20
+            1               0                   0               =100
+
+
+Вывод:  ID - очень весомые. Перебить их стилями очень сложно
+        CLASS - универсальные. Удобные, потому и популярные.
+        TAG - удобно для верстки простых страниц. Для сложных их уже мало.
+
+!important, который находится в файле стиля перебивает своим весом инлайновый стиль.
+!important, который находится в инлайновом стиле не перебить ничем.
+
+* Каскадирование
+* Браузер
+* Настройки браузера
+* Пользовательские стили
+    1. селекторы элемента
+    2. селекторы класса
+    3. селекторы идентификатора
+* Пользовательские стили !important
+* Пользовательские стили style Пользовательские стили style!important
+*/

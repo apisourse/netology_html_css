@@ -1,0 +1,642 @@
+/*
+FONTS IMPORT https://fonts.google.com/selection?selection.family=Cookie|Montserrat:400,700|Roboto+Slab|Vollkorn:400i&query=Cook
+font-family: 'Montserrat', sans-serif;
+font-family: 'Vollkorn', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Cookie', cursive;
+*/
+@import url('https://fonts.googleapis.com/css?family=Cookie|Montserrat:400,700|Roboto+Slab|Vollkorn:400i');
+
+/* background image test */
+.test-img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    margin-left: -700px;
+    opacity: 0.3;
+}
+
+/* global body setup */
+body {
+    margin: 0 auto;
+}
+
+html {
+    font-family: 'Roboto Slab', serif;
+    font-size: 62.550%;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.width-max-limit-big {
+    max-width: 1400px;
+}
+
+.width-max-limit-normal {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+/* global hover setup */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fed136;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* global title/text setup */
+.title-top {
+    margin-bottom: 73px;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+    letter-spacing: -0.035em;
+    margin: 0;
+}
+
+.main-description {
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: #777777;
+}
+
+.standart-title-page {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: -0.035em;
+    color: #222222;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.035em;
+    color: #777777;
+    line-height: 1.5em;
+}
+
+/* slider */
+.slider-block {
+    position: relative;
+    min-height: 700px;
+    margin: 0 auto;
+    background: url('https://i.lensdump.com/i/AI3TPZ.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* header */
+.header-top {
+    position: relative;
+    top: 47px;
+    margin: 0 auto;
+    line-height: 17px;
+}
+
+.header-logo {
+    display: inline;
+    font-family: 'Cookie', cursive;
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #fed136;
+    margin-left: 7px;
+}
+
+.header-menu {
+    position: relative;
+    right: 0;
+    top: -25px;
+    text-align: right;
+    margin-left: 120px;
+}
+
+.header-menu li {
+    display: inline;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.header-title-block {
+    text-align: center;
+    padding-top: 185px;
+    padding-bottom: 150px;
+    margin: 0 auto;
+}
+
+.header-description {
+    font-family: 'Vollkorn', serif;
+    font-size: 45px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    letter-spacing: -0.035em;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.header-button {
+    width: 240px;
+    height: 65px;
+    line-height: 2.65em;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #fed136;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header-button:hover {
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+
+.header-button .button-lmm a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* service */
+.service {
+    padding-top: 110px;
+    padding-bottom: 105px;
+}
+
+.service-list {
+    text-align: center;
+}
+
+.service-list > div {
+    display: inline-block;
+    width: 33.15%;
+    vertical-align: top;
+}
+
+.service-item {
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    background-repeat: no-repeat;
+}
+
+.pic1 {
+    background-image: url(https://i.lensdump.com/i/A0aKVC.png);
+    background-position: 0 0;
+}
+
+.pic2 {
+    background-image: url(https://i.lensdump.com/i/A0aKVC.png);
+    background-position: -77px 0;
+}
+
+.pic3 {
+    background-image: url(https://i.lensdump.com/i/A0aKVC.png);
+    background-position: -154px 0;
+}
+
+.service-list h2 {
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.service-list p {
+    padding: 0px 15px;
+    margin-top: 0;
+}
+
+/* portfolio */
+.portfolio {
+    background-color: #f7f7f7;
+    padding-top: 110px;
+    padding-bottom: 55px;
+}
+
+.portfolio-list {
+    text-align: justify;
+}
+
+.portfolio-list > div {
+    display: inline-block;
+    width: 290px;
+    background: #ffffff;
+    height: 395px;
+}
+
+.portfolio-item {
+    margin-bottom: 50px;
+}
+
+.port-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -0.035em;
+    color: #666666;
+}
+
+.portfolio-list > div:last-child {
+    height: 0px;
+}
+
+.port-description {
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-size: 17px;
+    color: #737373;
+}
+
+.portfolio-list p {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: -24px;
+}
+
+/* about us */
+.about {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.about-tree img {
+    height: 170px;
+    width: 170px;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+    align-self: center;
+    vertical-align: middle;
+}
+
+.about-tree div {
+    display: inline-block;
+    width: 33.15%;
+    background-color: red;
+}
+
+.about-tree {
+    display: table;
+    width: 100%;
+}
+
+.about-tree ul {
+    display: table-row;
+    text-align: center;
+    vertical-align: middle;
+    height: 277px;
+}
+
+.about-tree ul:last-child {
+    height: inherit;
+}
+
+.about-tree li {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.about-tree li:first-child {
+    text-align: right;
+    width: 40%;
+    padding-right: 35px;
+}
+
+.about-tree li:nth-child(2) {
+    text-align: center;
+    width: 20%;
+}
+
+.about-tree li:last-child {
+    text-align: left;
+    width: 40%;
+    padding-left: 35px;
+}
+
+/* .line-height {
+    height: 90px;
+} */
+
+.about-line {
+    background-image: url('https://i.lensdump.com/i/A0hmbQ.jpg');
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+li .about-date-tree {
+    text-transform: uppercase;
+
+}
+
+.about-tree .osc {
+    background-color: #fed136;
+    height: 170px;
+    width: 170px;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.osc p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+
+/* team */
+.team {
+    background-color: #f7f7f7;
+    padding-top: 110px;
+    padding-bottom: 75px;
+}
+
+.team-box {
+    margin: 0 50px;
+}
+
+.team-personal {
+    float: left;
+    width: 33.33%;
+}
+
+.team-box:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.team-personal div {
+    position: relative;
+    margin: 0 3px;
+}
+
+.team-personal img {
+    height: 220px;
+    width: 220px;
+    border: 7px solid #ffffff;
+    border-radius: 50%;
+    margin: 10px 23px 0;
+}
+
+.team-personal h3 {
+    font-size: 16px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.personal-profession {
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+
+.social-white {
+    text-align: center;
+}
+
+.social-white div {
+    display: inline-block;
+    vertical-align: top;
+    width: 41px;
+    height: 41px;
+}
+
+.social-white .facebook {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 143px -3px;
+}
+
+.social-white .pinterest {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 93px -3px;
+}
+
+.social-white .googleplus {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 44px -3px;
+}
+
+.social-white .twitter {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: -3px -3px;
+}
+
+.social-white .facebook:hover {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 143px 41px;
+}
+
+.social-white .pinterest:hover {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 93px 41px;
+}
+
+.social-white .googleplus:hover {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 44px 41px;
+}
+
+.social-white .twitter:hover {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: -3px 41px;
+}
+
+.remark p {
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 40px 150px;
+    line-height: 1.5em;
+}
+
+/* partners */
+.partners-list {
+    padding: 60px 94px 60px;
+    text-align: center;
+}
+
+.partners-list div {
+    display: inline;
+    max-width: 188px;
+}
+
+/* contact us */
+.contactus {
+    padding-top: 110px;
+    padding-bottom: 80px;
+    min-height: 485px;
+    background-color: #222222;
+    background-image: url('https://i.lensdump.com/i/AIgm8m.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.white-title {
+    color: #f1f1f1;
+    margin-top: -10px;
+}
+
+/* form */
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+.form-zone {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form-zone input {
+    display: block;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 430px;
+    padding: 17px 0px 17px 20px;
+    margin-bottom: 28px;
+    margin-right: 30px;
+}
+
+.form-zone textarea {
+    display: inline-block;
+    width: 430px;
+    height: 195px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 28px;
+    padding: 20px 0px 0px 19px;
+}
+
+.text-form {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.035em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #bbbbbb;
+}
+
+.submit-form {
+    display: block;
+    margin: 0 auto;
+    background-color: #fed136;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 240px;
+    height: 65px;
+    line-height: 2.65em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.submit-form:hover {
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+
+/* footer */
+.footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 370px;
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.015em;
+    color: #555555;
+    line-height: 22px;
+}
+
+.social-black div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    letter-spacing: 1em;
+    width: 41px;
+    height: 41px;
+}
+
+.social-black .facebook {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 143px 41px;
+}
+
+.social-black .pinterest {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 93px 41px;
+}
+
+.social-black .googleplus {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 44px 41px;
+}
+
+.social-black .twitter {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: -3px 41px;
+}
+
+.social-black .facebook:hover {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 143px -3px;
+}
+
+.social-black .pinterest:hover {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 93px -3px;
+}
+
+.social-black .googleplus:hover {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: 44px -3px;
+}
+
+.social-black .twitter:hover {
+    background-image: url('https://i.lensdump.com/i/AI3V69.png');
+    background-position: -3px -3px;
+}

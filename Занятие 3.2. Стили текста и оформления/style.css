@@ -1,0 +1,231 @@
+html {
+    font-family: helvetica, sans-serif;
+    font-size: 62.550%;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .container {
+    position: relative;
+    padding: 30px 40px;
+  }
+  
+  .notice {
+    font-style: italic;
+    font-size: 1.4em;
+    line-height: 1.2;
+  }
+  
+  .ex1 {
+    margin-bottom: 50px;
+    font-size: 1.2em;
+  }
+  
+  .ex1 header {
+    font-size: 1.5em;
+  }
+  
+  .ex1 header h1 {
+    font-size: 4rem;
+  }
+  
+  .ex header span {
+    font-size: 2em;
+  }
+  .ex header .marked {
+    font-size: 15px;
+  }
+  
+  .ex1 article {
+    font-size: 20px;
+  }
+  
+  .ex1 article strong {
+    font-size: 66.667%;
+  }
+  
+  .ex1 article p {
+    font-size: 125%;
+  }
+  
+  .ex1 article > p {
+    font-size: 80%;
+  }
+  .ex1 article .marked {
+    font-size: 250%;
+  }
+  
+  .ex1 article blockquote {
+    font-size: 0.5em;
+  }
+  
+  .ex1 .footer {
+    font-size: 20px;
+  }
+  
+  .ex1 footer {
+    font-size: 16px;
+  }
+  
+  .ex1 footer blockquote {
+    font-size: 1.5em;
+  }
+  
+  .ex1 footer p {
+    font-size: 50%;
+  }
+
+  /* Решение */
+
+  .ex1 header h1 strong{
+      font-size: 50%;
+  }
+
+  .ex1 article strong{
+    font-size: 1.25em;
+  }
+
+  .ex1 article blockquote strong{
+    font-size: 1.6em;
+  }
+
+  .ex1 article .marked strong{
+    font-size: 80%;
+  }
+
+  .ex1 footer p strong{
+      font-size: 2.5em;
+  } 
+  /* Ваше решение задания №1 */
+  
+  .ex2 {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+  }
+
+  .ex2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .ex2 p a{
+    text-decoration: none;
+    color: #000;
+  }
+
+  .ex2 p strong{
+    font-weight: 400;
+  }
+
+  .ex2 p em{
+    font-style: normal;
+  }
+  
+  .ex2 p i{
+    font-style: normal;
+  }
+
+  .ex2 p code{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .ex2 p mark{
+    background-color: #fff;
+  }
+
+  .ex2 p big{
+    font-size: 16px;
+  }
+
+  .ex2 p small{
+    font-size: 16px;
+  }
+
+  .ex2 p kbd{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .ex2 p u{
+    text-decoration: none;
+  }
+
+  /* Ваше решение задания №2 */
+  
+  .ex3 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    border: 2px solid #000;
+    margin-bottom: 50px;
+    border-style: dotted;
+    background: #bbb url(https://i.ytimg.com/vi/d6q5B9EDdpg/mqdefault.jpg) no-repeat 100% 50%;
+  }
+  
+  /* Ваше решение задания №3 */
+  
+  .ex4 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    border: 4px solid #000000;
+    margin-bottom: 50px;
+    outline: 3px solid red;
+    outline-offset: -12px;
+    background: #bbb url(https://i.ytimg.com/vi/d6q5B9EDdpg/mqdefault.jpg) no-repeat;
+    background-size: cover;
+  }
+
+
+  /* Ваше решение задания №4 */
+  
+  
+  
+  .ex5 {
+    font-size: 1.6em;
+    line-height: 1.2;
+    margin-bottom: 50px;
+  }
+
+  .ex5 .list1 li{
+    list-style-type: upper-roman;
+  }
+
+  .ex5 .list2 li{
+    list-style-type: none;
+    counter-increment: count;
+  }
+
+  .ex5 .list2 li:before{
+    content: counter(count) ') ';
+  }
+
+  /* Ваше решение задания №5 */
+  
+  
+  .ex6 {
+    font-size: 1.6em;
+    line-height: 1.2;
+    margin-bottom: 50px;
+  }
+
+  .ex6 .list1 li{
+      list-style-type: square;
+  }
+
+  .ex6 .list2 li{
+    list-style-type: none;
+  }
+
+  .ex6 .list2 li:before{
+    content: "\2605  ";
+  }
+
+  /* Ваше решение задания №6 */
+  
+  
+  
+  

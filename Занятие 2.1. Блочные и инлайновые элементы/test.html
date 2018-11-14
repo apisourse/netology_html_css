@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <style>
+        img {
+            height: 300px;
+            float: left; /* прибить картинку к левому краю для оптикания*/
+            opacity: 0.5; /* прозрачность */
+            margin: 0 10px 0 0; /* отбивка */
+        }
+        p {
+            background: red;
+            margin: 0 0 0 15px;
+        }
+        p + p + p {
+            background: blue;
+        }
+
+        .clearfix {
+            clear: both; /* принудительно запретить обтекание со свойством float: left; */
+            background: blueviolet;
+        }
+        </style>
+         <div>
+             <img src="https://avatars.mds.yandex.net/get-pdb/236760/91f8c150-907b-42ad-8018-ae2794b7e431/s1200">
+             <p>
+                 Et est et temporibus commodi. Architecto sunt eius laboriosam qui dolorum qui alias. Omnis eos maiores assumenda dolores deleniti quibusdam quia. Culpa explicabo debitis vel eaque esse facilis aliquam.
+             </p>
+             <p class="clearfix">Текст</p>
+             <p>
+                Et est et temporibus commodi. Architecto sunt eius laboriosam qui dolorum qui alias. Omnis eos maiores assumenda dolores deleniti quibusdam quia. Culpa explicabo debitis vel eaque esse facilis aliquam.
+             </p>
+         </div>
+    </body>
+</html>
